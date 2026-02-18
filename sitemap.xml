@@ -1,58 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Main Pages -->
   <url>
     <loc>https://haswealth.github.io/</loc>
     <priority>1.0</priority>
     <changefreq>monthly</changefreq>
   </url>
-
   <url>
     <loc>https://haswealth.github.io/about.html</loc>
     <priority>0.8</priority>
     <changefreq>yearly</changefreq>
   </url>
-
   <url>
     <loc>https://haswealth.github.io/takaful.html</loc>
     <priority>0.8</priority>
     <changefreq>yearly</changefreq>
   </url>
-
   <url>
     <loc>https://haswealth.github.io/unittrust.html</loc>
     <priority>0.8</priority>
     <changefreq>yearly</changefreq>
   </url>
-
   <url>
     <loc>https://haswealth.github.io/retirement.html</loc>
     <priority>0.8</priority>
     <changefreq>yearly</changefreq>
   </url>
-
   <url>
     <loc>https://haswealth.github.io/insights.html</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
-
   <url>
     <loc>https://haswealth.github.io/contact.html</loc>
     <priority>0.7</priority>
     <changefreq>yearly</changefreq>
   </url>
-
   <url>
     <loc>https://haswealth.github.io/disclosures.html</loc>
     <priority>0.5</priority>
     <changefreq>yearly</changefreq>
   </url>
-
   <url>
     <loc>https://haswealth.github.io/privacy.html</loc>
     <priority>0.5</priority>
     <changefreq>yearly</changefreq>
+  </url>
+
+  <!-- Takaful Articles -->
+  <url>
+    <loc>https://haswealth.github.io/articles/optimizing-takaful.html</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://haswealth.github.io/articles/takaful-education-family.html</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://haswealth.github.io/articles/managing-risk-family-wealth.html</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Unit Trust Articles -->
+  <url>
+    <loc>https://haswealth.github.io/articles/balancing-growth-preservation.html</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://haswealth.github.io/articles/choosing-right-unit-trust.html</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://haswealth.github.io/articles/portfolio-review-rebalancing.html</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Retirement Articles -->
+  <url>
+    <loc>https://haswealth.github.io/articles/sustainable-retirement-income.html</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://haswealth.github.io/articles/succession-wealth-transfer.html</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://haswealth.github.io/articles/retirement-risk-management.html</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://haswealth.github.io/articles/maximizing-retirement-confidence.html</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
   </url>
 
 </urlset>
