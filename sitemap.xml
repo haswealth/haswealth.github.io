@@ -48,7 +48,7 @@
     <changefreq>yearly</changefreq>
   </url>
 
-  <!-- Takaful Articles -->
+  <!-- Articles (All 13) -->
   <url>
     <loc>https://haswealth.github.io/articles/optimizing-takaful.html</loc>
     <priority>0.6</priority>
@@ -60,12 +60,15 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://haswealth.github.io/articles/legacy-protection-takaful.html</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://haswealth.github.io/articles/managing-risk-family-wealth.html</loc>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
-
-  <!-- Unit Trust Articles -->
   <url>
     <loc>https://haswealth.github.io/articles/balancing-growth-preservation.html</loc>
     <priority>0.6</priority>
@@ -77,12 +80,15 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://haswealth.github.io/articles/strategic-unit-trust.html</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://haswealth.github.io/articles/portfolio-review-rebalancing.html</loc>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
-
-  <!-- Retirement Articles -->
   <url>
     <loc>https://haswealth.github.io/articles/sustainable-retirement-income.html</loc>
     <priority>0.6</priority>
@@ -90,6 +96,11 @@
   </url>
   <url>
     <loc>https://haswealth.github.io/articles/succession-wealth-transfer.html</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://haswealth.github.io/articles/retirement-stewardship.html</loc>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
