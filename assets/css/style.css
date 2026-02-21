@@ -1,7 +1,7 @@
-/* Variables for consistency */
+/* 1. KEEP THESE: Global Variables & Base Styles */
 :root {
-  --primary: #1a365d; /* Trustworthy Deep Navy */
-  --accent: #c0a080;  /* Professional Gold/Brass */
+  --primary: #1a365d; 
+  --accent: #c0a080;  
   --text: #333;
   --bg: #fdfdfd;
   --light-gray: #f4f4f4;
@@ -16,7 +16,7 @@ body {
   padding: 0;
 }
 
-/* Navigation - Mobile First */
+/* 2. KEEP THESE: Navigation */
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -37,57 +37,73 @@ nav a {
   font-size: 0.9rem;
 }
 
-nav a:hover {
-  color: var(--accent);
-}
+nav a:hover { color: var(--accent); }
 
-/* Content Sections */
-header, section, footer {
+/* 3. UPDATED: General Content Sections */
+header, section {
   padding: 40px 20px;
   max-width: 800px;
   margin: 0 auto;
 }
 
-/* Hero Section */
 header {
   text-align: center;
   background: linear-gradient(to bottom, #f0f4f8, var(--bg));
   padding: 80px 20px;
 }
 
-h1, h2 {
+h1, h2 { color: var(--primary); margin-top: 0; }
+ul { padding-left: 20px; }
+li { margin-bottom: 12px; }
+a { color: var(--primary); }
+
+/* 4. REPLACED: New YMYL Footer Styling */
+footer {
+  background-color: #f9f9f9;
+  border-top: 2px solid #eee;
+  padding: 50px 20px 20px;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1000px; /* Slightly wider for the grid */
+  margin: 0 auto;
+}
+
+.footer-section h3, .footer-section h4 {
   color: var(--primary);
+  margin-bottom: 15px;
   margin-top: 0;
 }
 
-/* Lists and Links */
-ul {
-  padding-left: 20px;
-}
+.footer-section ul { list-style: none; padding: 0; }
+.footer-section ul li { margin-bottom: 8px; }
 
-li {
-  margin-bottom: 12px;
-}
-
-a {
-  color: var(--primary);
-}
-
-/* Footer Styling */
-footer {
-  font-size: 0.85rem;
-  border-top: 1px solid var(--light-gray);
-  color: #666;
+.footer-bottom {
   text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
 }
 
-footer p {
-  margin: 5px 0;
+.legal-links { margin: 10px 0; }
+
+.disclaimer-text {
+  font-size: 0.75rem;
+  color: #777;
+  max-width: 700px;
+  margin: 15px auto 0;
+  line-height: 1.4;
 }
 
-/* Mobile Adjustments */
+/* 5. KEEP/UPDATE: Mobile Adjustments */
 @media (max-width: 600px) {
   header { padding: 50px 20px; }
   h1 { font-size: 1.8rem; }
   nav { gap: 10px; padding: 10px; }
+  .footer-grid { text-align: center; } /* Centers footer text on mobile */
 }
