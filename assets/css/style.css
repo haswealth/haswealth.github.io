@@ -107,3 +107,24 @@ footer {
   nav { gap: 10px; padding: 10px; }
   .footer-grid { text-align: center; } /* Centers footer text on mobile */
 }
+
+/* About Page Specific Layout */
+.profile-flex {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.profile-image {
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 600px) {
+  .profile-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+}
