@@ -8,7 +8,7 @@
   <link rel="canonical" href="https://haswealth.github.io/insights.html">
   <link rel="stylesheet" href="assets/css/style.css">
   <style>
-    /* In-line tweaks to enhance your existing style.css */
+    /* Grid and Card Styling */
     .insights-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -23,6 +23,7 @@
       transition: transform 0.2s ease, box-shadow 0.2s ease;
       display: flex;
       flex-direction: column;
+      text-align: left;
     }
     .article-card:hover {
       transform: translateY(-5px);
@@ -41,9 +42,10 @@
       font-size: 1.35rem;
       margin-bottom: 15px;
       line-height: 1.4;
+      color: #1a365d;
     }
     .article-card h2 a {
-      color: #1a365d;
+      color: inherit;
       text-decoration: none;
     }
     .article-card p {
@@ -51,12 +53,16 @@
       font-size: 0.95rem;
       flex-grow: 1;
       margin-bottom: 20px;
+      line-height: 1.6;
     }
     .read-more {
       color: #1a365d;
       font-weight: 700;
       text-decoration: none;
       font-size: 0.9rem;
+    }
+    .read-more:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -72,15 +78,16 @@
   <a href="insights.html">Insights</a>
 </nav>
 
-<header style="background: #1a365d; color: white; padding: 60px 20px; text-align: center;">
+<header style="background: #1a365d; color: white; padding: 80px 20px; text-align: center;">
   <div style="max-width: 800px; margin: 0 auto;">
-    <h1 style="font-size: 2.5rem; margin-bottom: 15px;">Insights Hub</h1>
-    <p style="font-size: 1.1rem; opacity: 0.9;">Structured guidance for disciplined wealth preservation, investment, and retirement stewardship.</p>
+    <h1 style="font-size: 2.8rem; margin-bottom: 20px; color: white;">Insights Hub</h1>
+    <p style="font-size: 1.2rem; opacity: 0.95; color: white; line-height: 1.6;">
+      Structured guidance for disciplined wealth preservation, investment, and retirement stewardship.
+    </p>
   </div>
 </header>
 
 <main style="max-width: 1200px; margin: 0 auto; padding: 60px 20px;">
-  
   <div class="insights-grid">
 
     <article class="article-card">
