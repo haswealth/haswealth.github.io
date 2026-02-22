@@ -13,7 +13,6 @@
     .verify-link { display: inline-block; background: #1a365d; color: white; padding: 5px 12px; border-radius: 4px; text-decoration: none; font-size: 0.85rem; margin-top: 10px; transition: background 0.2s; }
     .verify-link:hover { background: #1e40af; }
     .badge-container { text-align: center; margin: 30px 0; }
-    /* Removed the 50% border-radius to make the badge a clean rectangle */
     .badge-img { max-width: 150px; height: auto; border-radius: 4px; border: 1px solid #e2e8f0; padding: 5px; background: white; }
   </style>
 </head>
@@ -29,9 +28,9 @@
   <a href="insights.html">Insights</a>
 </nav>
 
-<header style="background: #1a365d; color: white; padding: 60px 20px; text-align: center;">
-  <h1 style="color: white; font-size: 2.8rem; margin-bottom: 15px;">Regulatory Disclosures</h1>
-  <p style="color: white; opacity: 0.9; font-size: 1.1rem;">Transparency regarding professional appointments and regulatory compliance.</p>
+<header>
+  <h1>Regulatory Disclosures</h1>
+  <p>Transparency regarding professional appointments and regulatory compliance.</p>
 </header>
 
 <section>
@@ -87,36 +86,43 @@
   <p>Compensation may be received in the form of commissions, advisory fees, or trailer fees from the principal companies mentioned above. All fees and commissions are disclosed transparently during the consultation process before any agreement is executed.</p>
 </section>
 
-<footer style="margin-top: 100px; border-top: 1px solid #e2e8f0; padding: 60px 20px; background-color: #f8fafc; color: #334155;">
-  <div style="max-width: 1000px; margin: 0 auto;"> 
-    <div class="footer-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px; margin-bottom: 40px;">
-      
-      <div class="footer-section">
-        <h3 style="margin-top: 0; color: #1a365d;">HAS Wealth Advisory</h3>
-        <p style="font-size: 0.95rem; line-height: 1.6;">Providing structured Shariah-compliant financial stewardship for families across Malaysia since 2013.</p>
-      </div>
-
-      <div class="footer-section">
-        <h4 style="margin-top: 0; color: #1a365d;">Quick Links</h4>
-        <ul style="list-style: none; padding: 0; font-size: 0.95rem;">
-          <li style="margin-bottom: 10px;"><a href="about.html" style="color: #1a365d; text-decoration: none;">About Hairul Anuar</a></li>
-          <li style="margin-bottom: 10px;"><a href="insights.html" style="color: #1a365d; text-decoration: none;">Financial Insights</a></li>
-          <li style="margin-bottom: 10px;"><a href="contact.html" style="color: #1a365d; text-decoration: none;">Book Consultation</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-section">
-        <h4 style="margin-top: 0; color: #1a365d;">Regulatory Appointments</h4>
-        <div style="font-size: 0.9rem; line-height: 1.6;">
-          <p style="margin: 5px 0;"><strong>IFAR:</strong> Phillip Wealth Planners Sdn Bhd</p>
-          <p style="margin: 5px 0;"><strong>Unit Trust:</strong> Phillip Mutual Berhad (FIMM No: F01040203)</p>
-          <p style="margin: 5px 0;">Associate Member of the Malaysian Financial Planning Council (MFPC)</p>
-        </div>
-      </div>
-
+<footer>
+  <div class="footer-grid">
+    <div class="footer-section">
+      <h3>HAS Wealth Advisory</h3>
+      <p>Providing structured Shariah-compliant financial stewardship for families across Malaysia since 2013.</p>
     </div>
 
-    <div class="footer-bottom" style="border-top: 1px solid #cbd5e1; padding-top: 30px; text-align: center;">
-      <p style="font-size: 0.9rem; margin-bottom: 10px;">&copy; 2026 HAS Wealth Advisory. All Rights Reserved.</p>
-      <div class="legal-links" style="margin-bottom: 20px; font-size: 0.85rem;">
-        <a href="disclosures.html" style="color
+    <div class="footer-section">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="about.html">About Hairul Anuar</a></li>
+        <li><a href="insights.html">Financial Insights</a></li>
+        <li><a href="contact.html">Book Consultation</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Regulatory Appointments</h4>
+      <p><strong>IFAR:</strong> Phillip Wealth Planners Sdn Bhd</p>
+      <p><strong>Unit Trust:</strong> Phillip Mutual Berhad (FIMM No: F01040203)</p>
+      <p>Associate Member of the Malaysian Financial Planning Council (MFPC)</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 HAS Wealth Advisory. All Rights Reserved.</p>
+    <div class="legal-links">
+      <a href="disclosures.html">Regulatory Disclosures</a> | 
+      <a href="privacy.html">Privacy Policy</a> | 
+      <a href="disclaimer.html">Financial Disclaimer</a>
+    </div>
+    
+    <p class="disclaimer-text">
+      Disclaimer: The information on this website is for educational purposes only and does not constitute individual financial advice. All investments carry risk.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
