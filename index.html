@@ -3,19 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <meta name="google-site-verification" content="PNhnhspweDAttE-7hsHlMj_7_Lx6NbWMzrXxvobkciM" />
-
   <title>HAS Wealth Advisory | Shariah-Compliant Financial Advisory</title>
   <meta name="description" content="HAS Wealth Advisory provides structured Shariah-compliant financial advisory in Takaful, Unit Trust investment, and retirement planning for Muslim families in Malaysia.">
 
-  <!-- Canonical -->
   <link rel="canonical" href="https://haswealth.github.io/">
 
-  <!-- Author -->
   <meta name="author" content="Hairul Anuar Bin Sulaiman">
 
-  <!-- Open Graph -->
   <meta property="og:title" content="HAS Wealth Advisory">
   <meta property="og:description" content="Structured Shariah-compliant financial advisory for protection, investment, and retirement planning.">
   <meta property="og:type" content="website">
@@ -23,8 +18,121 @@
   <meta property="og:image" content="https://haswealth.github.io/assets/images/hairul-anuar.jpeg">
 
   <link rel="stylesheet" href="assets/css/style.css">
+  
+  <style>
+    /* Homepage Specific CSS Upgrades */
+    .hero-section {
+      background-color: #1a365d;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .hero-content {
+      max-width: 850px;
+      margin: 0 auto;
+    }
+    .hero-h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 20px;
+      line-height: 1.2;
+      color: white;
+    }
+    .hero-sub {
+      font-size: 1.25rem;
+      opacity: 0.9;
+      margin-bottom: 40px;
+      line-height: 1.6;
+      color: white;
+    }
+    .btn-primary {
+      background-color: #fbbf24;
+      color: #1a365d;
+      padding: 15px 35px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+      display: inline-block;
+    }
+    .btn-primary:hover {
+      background-color: #f59e0b;
+    }
+    .trust-bar {
+      background-color: #f1f5f9;
+      padding: 30px 20px;
+      text-align: center;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .trust-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      max-width: 1000px;
+      margin: 0 auto;
+      font-size: 0.95rem;
+      color: #475569;
+      font-weight: 600;
+    }
+    .section-header {
+      text-align: center;
+      max-width: 700px;
+      margin: 80px auto 40px;
+    }
+    .section-header h2 {
+      font-size: 2.2rem;
+      color: #1a365d;
+    }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: 0 auto 80px;
+      padding: 0 20px;
+    }
+    .card {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 40px 30px;
+      text-align: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.1);
+    }
+    .card h3 {
+      color: #1a365d;
+      font-size: 1.4rem;
+      margin-bottom: 15px;
+    }
+    .card p {
+      color: #64748b;
+      margin-bottom: 25px;
+      line-height: 1.6;
+    }
+    .card a {
+      color: #1a365d;
+      font-weight: bold;
+      text-decoration: none;
+      border-bottom: 2px solid #fbbf24;
+      padding-bottom: 2px;
+    }
+    .card a:hover {
+      color: #2563eb;
+    }
+    /* Insights Teaser */
+    .insights-teaser {
+      background-color: #f8fafc;
+      padding: 80px 20px;
+      border-top: 1px solid #e2e8f0;
+    }
+  </style>
 
-  <!-- Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -80,7 +188,7 @@
         "@type": "Person",
         "@id": "https://haswealth.github.io/#person",
         "name": "Hairul Anuar Bin Sulaiman",
-        "jobTitle": "Approved Islamic Financial Adviser Representative (IFAR)",
+        "jobTitle": "Appointed Islamic Financial Adviser Representative (IFAR)",
         "knowsAbout": ["Shariah Finance", "Islamic Wealth Management", "Takaful", "Unit Trust", "Retirement Planning", "Estate Planning"],
         "image": "https://haswealth.github.io/assets/images/hairul-anuar.jpeg",
         "sameAs": [
@@ -99,12 +207,10 @@
     ]
   }
   </script>
-
 </head>
 
 <body>
 
-<!-- Navigation -->
 <nav>
   <a href="index.html">Home</a>
   <a href="about.html">About</a>
@@ -115,48 +221,86 @@
   <a href="insights.html">Insights</a>
 </nav>
 
-<!-- Hero Section -->
-<header>
-  <h1>HAS Wealth Advisory</h1>
-  <p>Structured Shariah-compliant financial advisory for protection, disciplined investment, and retirement stewardship.</p>
-</header>
 
-<!-- Introduction -->
-<section id="introduction">
-  <h2>Advisory Focus</h2>
-  <p>Since 2013, assisting Muslim families with structured Shariah-compliant wealth, protection, and retirement planning.</p>
-  <p>The advisory approach emphasizes long-term stewardship, regulatory compliance, and disciplined portfolio construction aligned with Islamic financial principles.</p>
+<section class="hero-section">
+  <div class="hero-content">
+    <h1 class="hero-h1">Disciplined Shariah-Compliant Wealth Stewardship</h1>
+    <p class="hero-sub">Protecting legacies and growing assets for families, professionals, and business owners across Malaysia through structured, multi-generational advisory.</p>
+    <a href="contact.html" class="btn-primary">Schedule a Discovery Call</a>
+  </div>
 </section>
 
-<!-- Core Services -->
-<section id="services">
-  <h2>Core Advisory Services</h2>
-  <ul>
-    <li><a href="takaful.html">Takaful Advisory – Protection and risk management</a></li>
-    <li><a href="unittrust.html">Shariah Unit Trust Investment – Portfolio construction and monitoring</a></li>
-    <li><a href="retirement.html">Shariah Retirement Planning – Structured income and wealth preservation</a></li>
-  </ul>
+<div class="trust-bar">
+  <div class="trust-items">
+    <span>✓ Appointed IFAR (Phillip Wealth Planners Sdn Bhd)</span>
+    <span>✓ Registered Unit Trust Consultant (FIMM)</span>
+    <span>✓ Associate Shariah RFP (MFPC)</span>
+  </div>
+</div>
+
+
+<div class="section-header">
+  <h2>The Architecture of Family Wealth</h2>
+  <p style="color: #64748b; font-size: 1.1rem; line-height: 1.6;">A comprehensive approach to financial security requires more than individual products. It requires an integrated ecosystem designed to protect, grow, and transfer your assets under Islamic principles.</p>
+</div>
+
+<div class="grid-3">
+  <div class="card">
+    <div style="font-size: 2.5rem; margin-bottom: 15px;">🛡️</div>
+    <h3>Preservation</h3>
+    <p>Shield your human capital and tangible assets from unforeseen risks with structured Takaful risk management strategies.</p>
+    <a href="takaful.html">Explore Protection →</a>
+  </div>
+  
+  <div class="card">
+    <div style="font-size: 2.5rem; margin-bottom: 15px;">📈</div>
+    <h3>Accumulation</h3>
+    <p>Construct resilient, Shariah-screened Unit Trust portfolios designed to outpace inflation and compound wealth safely over decades.</p>
+    <a href="unittrust.html">Explore Investment →</a>
+  </div>
+
+  <div class="card">
+    <div style="font-size: 2.5rem; margin-bottom: 15px;">🏛️</div>
+    <h3>Continuity</h3>
+    <p>Ensure a dignified retirement and seamless multi-generational wealth transfer utilizing integrated estate planning tools.</p>
+    <a href="retirement.html">Explore Retirement →</a>
+  </div>
+</div>
+
+<section class="insights-teaser">
+  <div class="section-header" style="margin-top: 0;">
+    <h2>Actionable Financial Intelligence</h2>
+    <p style="color: #64748b; font-size: 1.1rem;">Explore deep-dive strategies and perspectives from the Insights Hub.</p>
+  </div>
+  
+  <div class="grid-3">
+    <div class="card" style="text-align: left; padding: 30px;">
+      <span style="font-size: 0.75rem; text-transform: uppercase; color: #1a365d; font-weight: bold;">Takaful & Protection</span>
+      <h3 style="font-size: 1.2rem; margin-top: 10px;">Managing Risk in Family Wealth</h3>
+      <p style="font-size: 0.95rem;">Protecting household income and assets using Shariah-compliant risk management strategies.</p>
+      <a href="articles/managing-risk-family-wealth.html" style="font-size: 0.9rem;">Read Article →</a>
+    </div>
+
+    <div class="card" style="text-align: left; padding: 30px;">
+      <span style="font-size: 0.75rem; text-transform: uppercase; color: #1a365d; font-weight: bold;">Investment</span>
+      <h3 style="font-size: 1.2rem; margin-top: 10px;">Growth vs. Preservation in Portfolios</h3>
+      <p style="font-size: 0.95rem;">Maintaining long-term growth while safeguarding wealth through disciplined strategies.</p>
+      <a href="articles/balancing-growth-preservation.html" style="font-size: 0.9rem;">Read Article →</a>
+    </div>
+
+    <div class="card" style="text-align: left; padding: 30px;">
+      <span style="font-size: 0.75rem; text-transform: uppercase; color: #1a365d; font-weight: bold;">Retirement</span>
+      <h3 style="font-size: 1.2rem; margin-top: 10px;">Succession & Wealth Transfer</h3>
+      <p style="font-size: 0.95rem;">Securing smooth wealth transfer and family continuity without legal complications.</p>
+      <a href="articles/succession-wealth-transfer.html" style="font-size: 0.9rem;">Read Article →</a>
+    </div>
+  </div>
+  
+  <div style="text-align: center; margin-bottom: 40px;">
+    <a href="insights.html" class="btn-primary" style="background-color: transparent; border: 2px solid #1a365d; color: #1a365d;">Visit the Full Insights Hub</a>
+  </div>
 </section>
 
-<!-- Credentials -->
-<section id="credentials">
-  <h2>Professional Credentials</h2>
-  <p><strong>Hairul Anuar Bin Sulaiman</strong></p>
-  <ul>
-    <li>Approved Islamic Financial Adviser Representative (IFAR)</li>
-    <li>Associate Shariah Registered Financial Planner (Shariah RFP Pathway)</li>
-    <li>Associate Member – Malaysian Financial Planning Council (MFPC)</li>
-  </ul>
-</section>
-
-<!-- Contact -->
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:hairul.financial@gmail.com">hairul.financial@gmail.com</a></p>
-  <p>Location: Kota Tinggi, Johor, Malaysia</p>
-</section>
-
-<!-- Footer -->
 <footer>
   <div class="footer-grid">
     <div class="footer-section">
@@ -193,7 +337,6 @@
     </p>
   </div>
 </footer>
-
 
 </body>
 </html>
