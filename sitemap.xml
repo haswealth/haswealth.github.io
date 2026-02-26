@@ -1,116 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Main Pages -->
   <url>
     <loc>https://haswealth.github.io/</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>1.0</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://haswealth.github.io/about.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.8</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
     <loc>https://haswealth.github.io/takaful.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.8</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
     <loc>https://haswealth.github.io/unittrust.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.8</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
+    <loc>https://haswealth.github.io/ccm.html</loc>
+    <lastmod>2026-02-26</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://haswealth.github.io/retirement.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.8</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
     <loc>https://haswealth.github.io/insights.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://haswealth.github.io/contact.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.7</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
     <loc>https://haswealth.github.io/disclosures.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.5</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
     <loc>https://haswealth.github.io/privacy.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.5</priority>
     <changefreq>yearly</changefreq>
   </url>
 
-  <!-- Articles (All 13) -->
   <url>
     <loc>https://haswealth.github.io/articles/optimizing-takaful.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://haswealth.github.io/articles/takaful-education-family.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://haswealth.github.io/articles/legacy-protection-takaful.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://haswealth.github.io/articles/managing-risk-family-wealth.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://haswealth.github.io/articles/balancing-growth-preservation.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://haswealth.github.io/articles/choosing-right-unit-trust.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://haswealth.github.io/articles/strategic-unit-trust.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://haswealth.github.io/articles/portfolio-review-rebalancing.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://haswealth.github.io/articles/sustainable-retirement-income.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://haswealth.github.io/articles/succession-wealth-transfer.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://haswealth.github.io/articles/retirement-stewardship.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://haswealth.github.io/articles/retirement-risk-management.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://haswealth.github.io/articles/maximizing-retirement-confidence.html</loc>
+    <lastmod>2026-02-26</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
